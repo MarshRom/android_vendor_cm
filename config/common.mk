@@ -33,6 +33,8 @@ PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/$(TARGET_BOOTAN
 endif
 endif
 
+PRODUCT_BOOTANIMATION := vendor/cm/prebuilt/common/bootanimation/marsh.zip
+
 ifdef CM_NIGHTLY
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=cyanogenmodnightly
@@ -104,6 +106,26 @@ endif
 # CM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
+    
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/priv-app/ThemeChooser/ThemeChooser.apk:system/etc/priv-app/ThemeChooser/ThemeChooser.apk \
+    vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/base.apk:/system/app/re.codefi.savoca.kcal-1/base.apk \
+    vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/oat/arm/base.odex:/system/app/re.codefi.savoca.kcal-1/oat/arm/base.odex \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:/system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswe.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswe.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_22_plugin.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_22_plugin.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_23_plugin.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_23_plugin.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_plugin.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libsweadrenoext_plugin.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libsweskia.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libsweskia.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so \
+    vendor/cm/prebuilt/common/etc/init.d/91zipalign:/system/etc/init.d/91zipalign \
+    vendor/cm/prebuilt/common/etc/init.d/92sqlite:/system/etc/init.d/92sqlite
 
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
@@ -290,7 +312,7 @@ ifeq ($(CM_BUILDTYPE), RELEASE)
         endif
     endif
 else
-    CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
+    CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-MARSH1.8$(CM_EXTRAVERSION)-$(CM_BUILD)
 endif
 
 PRODUCT_PROPERTY_OVERRIDES += \
