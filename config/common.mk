@@ -114,6 +114,9 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:/system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libgiga_client.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libgiga_client.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libsta.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libsta.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswenetxt_plugin.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswenetxt_plugin.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswe.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libswe.so \
