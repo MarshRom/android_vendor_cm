@@ -11,3 +11,7 @@ PRODUCT_PACKAGES += \
     messaging \
     Stk \
     CellBroadcastReceiver
+
+# Default ringtone
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Titania.ogg

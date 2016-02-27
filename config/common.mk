@@ -371,6 +371,18 @@ endif
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.display.version=$(CM_DISPLAY_VERSION)
 
+# Default notification/alarm sounds
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.notification_sound=Tethys.ogg \
+    ro.config.alarm_alert=Oxygen.ogg \
+    ro.config.ringtone=Titania.ogg
+
+# Default notification/alarm sounds
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.sys.strictmode.disable=true \
+    ro.marsh.version=2.0 \
+    ro.config.nocheckin=1
+
 # CyanogenMod Platform SDK Version
 PRODUCT_PROPERTY_OVERRIDES += \
   ro.cm.build.version.plat.sdk=$(CM_PLATFORM_SDK_VERSION)
