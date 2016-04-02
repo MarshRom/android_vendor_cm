@@ -108,7 +108,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
     
 PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/priv-app/ThemeChooser/ThemeChooser.apk:/system/priv-app/ThemeChooser/ThemeChooser.apk \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/base.apk:/system/app/re.codefi.savoca.kcal-1/base.apk \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/oat/arm/base.odex:/system/app/re.codefi.savoca.kcal-1/oat/arm/base.odex \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
