@@ -106,10 +106,19 @@ endif
 # CM-specific init file
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
-    
+
+# What is FishPond?
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/base.apk:/system/app/re.codefi.savoca.kcal-1/base.apk \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/oat/arm/base.odex:/system/app/re.codefi.savoca.kcal-1/oat/arm/base.odex \
+    vendor/cm/prebuilt/common/app/CameraNext/CameraNext.apk:/system/app/CameraNext/CameraNext.apk \
+    vendor/cm/prebuilt/common/app/CameraNext/lib/arm/libjni_mosaic_next.so:/system/app/CameraNext/lib/arm/libjni_mosaic_next.so \
+    vendor/cm/prebuilt/common/app/CameraNext/lib/arm/libjni_tinyplanet_next.so:/system/app/CameraNext/lib/arm/libjni_tinyplanet_next.so \
+    vendor/cm/prebuilt/common/app/ChromeCustomizations/ChromeCustomizations.apk:/system/app/ChromeCustomizations/ChromeCustomizations.apk \
+    vendor/cm/prebuilt/common/app/FishPond/FishPond.apk:/system/app/FishPond/FishPond.apk \
+    vendor/cm/prebuilt/common/app/GalleryNext/GalleryNext.apk:/system/app/GalleryNext/GalleryNext.apk \
+    vendor/cm/prebuilt/common/app/LiveLockScreen/LiveLockScreen.apk:/system/app/LiveLockScreen/LiveLockScreen.apk \
+    vendor/cm/prebuilt/common/app/AudioFX/AudioFX.apk:/system/app/AudioFX/AudioFX.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:/system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
