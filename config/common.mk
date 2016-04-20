@@ -119,7 +119,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/priv-app/GalleryNext/GalleryNext.apk:/system/priv-app/GalleryNext/GalleryNext.apk \
     vendor/cm/prebuilt/common/app/LiveLockScreen/LiveLockScreen.apk:/system/app/LiveLockScreen/LiveLockScreen.apk \
     vendor/cm/prebuilt/common/priv-app/AudioFX/AudioFX.apk:/system/priv-app/AudioFX/AudioFX.apk \
-    vendor/cm/prebuilt/common/priv-app/WebViewGoogle/WebViewGoogle.apk:/system/priv-app/WebViewGoogle/WebViewGoogle.apk \
+    vendor/cm/prebuilt/common/app/WebViewGoogle/WebViewGoogle.apk:/system/app/WebViewGoogle/WebViewGoogle.apk \
     vendor/cm/prebuilt/common/priv-app/ThemeChooser/ThemeChooser.apk:/system/priv-app/ThemeChooser/ThemeChooser.apk \
     vendor/cm/prebuilt/common/priv-app/VoiceWakeup/VoiceWakeup.apk:/system/priv-app/VoiceWakeup/VoiceWakeup.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
