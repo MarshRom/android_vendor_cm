@@ -114,13 +114,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/priv-app/CameraNext/CameraNext.apk:/system/priv-app/CameraNext/CameraNext.apk \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so:/system/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so:/system/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so \
-    vendor/cm/prebuilt/common/app/ChromeCustomizations/ChromeCustomizations.apk:/system/app/ChromeCustomizations/ChromeCustomizations.apk \
-    vendor/cm/prebuilt/common/app/FishPond/FishPond.apk:/system/app/FishPond/FishPond.apk \
-    vendor/cm/prebuilt/common/priv-app/GalleryNext/GalleryNext.apk:/system/priv-app/GalleryNext/GalleryNext.apk \
-    vendor/cm/prebuilt/common/app/LiveLockScreen/LiveLockScreen.apk:/system/app/LiveLockScreen/LiveLockScreen.apk \
     vendor/cm/prebuilt/common/priv-app/AudioFX/AudioFX.apk:/system/priv-app/AudioFX/AudioFX.apk \
-    vendor/cm/prebuilt/common/app/WebViewGoogle/WebViewGoogle.apk:/system/app/WebViewGoogle/WebViewGoogle.apk \
-    vendor/cm/prebuilt/common/priv-app/VoiceWakeup/VoiceWakeup.apk:/system/priv-app/VoiceWakeup/VoiceWakeup.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:/system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:/system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
