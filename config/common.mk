@@ -115,6 +115,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so:/system/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so:/system/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so \
     vendor/cm/prebuilt/common/priv-app/AudioFX/AudioFX.apk:/system/priv-app/AudioFX/AudioFX.apk \
+    vendor/cm/prebuilt/common/etc/waves/default.mps:/system/etc/waves/default.mps \
     vendor/cm/prebuilt/common/app/theme/theme.apk:/system/app/theme/theme.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:/system/app/org.notphenom.swe.browser-1/base.apk \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:/system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
