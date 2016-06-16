@@ -1,8 +1,5 @@
 # Inherit common CM stuff
-$(call inherit-product, vendor/cm/config/common.mk)
-
-# Include CM audio files
-include vendor/cm/config/cm_audio.mk
+$(call inherit-product, vendor/cm/config/common_mini.mk)
 
 ifeq ($(TARGET_SCREEN_WIDTH) $(TARGET_SCREEN_HEIGHT),$(space))
     PRODUCT_COPY_FILES += \
