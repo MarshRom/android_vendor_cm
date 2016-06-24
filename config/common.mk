@@ -127,12 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.d/91zipalign:system/etc/init.d/91zipalign \
     vendor/cm/prebuilt/common/etc/init.d/92sqlite:system/etc/init.d/92sqlite
 
-# Google Keyboard 
-PRODUCT_COPY_FILES += \
-    vendor/cm/prebuilt/common/app/com.google.android.inputmethod.latin-1/base.apk:system/app/com.google.android.inputmethod.latin-1/base.apk \
-    vendor/cm/prebuilt/common/app/com.google.android.inputmethod.latin-1/oat/arm/base.odex:system/app/com.google.android.inputmethod.latin-1/oat/arm/base.odex \
-    vendor/cm/prebuilt/common/app/com.google.android.inputmethod.latin-1/lib/arm/libjni_delight4decoder.so:system/app/com.google.android.inputmethod.latin-1/lib/arm/libjni_delight4decoder.so
-
 # Copy over added mimetype supported in libcore.net.MimeUtils
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/lib/content-types.properties:system/lib/content-types.properties
