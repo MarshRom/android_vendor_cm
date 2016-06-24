@@ -356,7 +356,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.strictmode.disable=true \
-    ro.marsh.version=2.0 \
+    ro.marsh.version=2.0.2 \
     ro.config.nocheckin=1
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
