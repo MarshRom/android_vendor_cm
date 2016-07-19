@@ -124,7 +124,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so:system/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so:system/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswe.cr.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswe.cr.so \
+    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswe.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswe.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so \
     vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so \
