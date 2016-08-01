@@ -119,15 +119,15 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/priv-app/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk \
     vendor/cm/prebuilt/common/etc/waves/default.mps:system/etc/waves/default.mps \
     vendor/cm/config/permissions/com.cyngn.audiofx.xml:system/etc/permissions/com.cyngn.audiofx.xml \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/base.apk:system/app/org.notphenom.swe.browser-1/base.apk \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/oat/arm/base.odex:system/app/org.notphenom.swe.browser-1/oat/arm/base.odex \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so:system/app/org.notphenom.swe.browser-1/lib/arm/libc++_shared.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so:system/app/org.notphenom.swe.browser-1/lib/arm/libicui18n.cr.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so:system/app/org.notphenom.swe.browser-1/lib/arm/libicuuc.cr.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswe.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswe.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswecore.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswev8.so \
-    vendor/cm/prebuilt/common/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so:system/app/org.notphenom.swe.browser-1/lib/arm/libswewebrefiner.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/base.apk:system/app/org.marshrom.marsh.browser.dev-1/base.apk \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/oat/arm/base.odex:system/app/org.marshrom.marsh.browser.dev-1/oat/arm/base.odex \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libc++_shared.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libc++_shared.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicui18n.cr.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicui18n.cr.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicuuc.cr.so:system/app/org.marshrom.marsh.browser.dev-1/v/lib/arm/libicuuc.cr.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswe.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswe.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswecore.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswecore.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswev8.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswev8.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswewebrefiner.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswewebrefiner.so \
     vendor/cm/prebuilt/common/etc/init.d/91zipalign:system/etc/init.d/91zipalign \
     vendor/cm/prebuilt/common/etc/init.d/92sqlite:system/etc/init.d/92sqlite
 
