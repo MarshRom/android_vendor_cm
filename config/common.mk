@@ -123,7 +123,7 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/oat/arm/base.odex:system/app/org.marshrom.marsh.browser.dev-1/oat/arm/base.odex \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libc++_shared.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libc++_shared.so \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicui18n.cr.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicui18n.cr.so \
-    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicuuc.cr.so:system/app/org.marshrom.marsh.browser.dev-1/v/lib/arm/libicuuc.cr.so \
+    vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicuuc.cr.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libicuuc.cr.so \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswe.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswe.so \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswecore.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswecore.so \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswev8.so:system/app/org.marshrom.marsh.browser.dev-1/lib/arm/libswev8.so \
