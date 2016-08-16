@@ -335,9 +335,9 @@ ifeq ($(CM_BUILDTYPE), RELEASE)
     endif
 else
     ifeq ($(PRODUCT_VERSION_MAINTENANCE),0)
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-MARSH-2.1$(CM_EXTRAVERSION)-$(CM_BUILD)
+        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-MARSH-2.2$(CM_EXTRAVERSION)-$(CM_BUILD)
     else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d)-MARSH-2.1$(CM_EXTRAVERSION)-$(CM_BUILD)
+        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(PRODUCT_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d)-MARSH-2.2$(CM_EXTRAVERSION)-$(CM_BUILD)
     endif
 endif
 
@@ -386,7 +386,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # Default notification/alarm sounds
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.sys.strictmode.disable=true \
-    ro.marsh.version=2.1 \
+    ro.marsh.version=2.2 \
     ro.config.nocheckin=1
 
 -include $(WORKSPACE)/build_env/image-auto-bits.mk
