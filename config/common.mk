@@ -109,7 +109,6 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/init.local.rc:root/init.cm.rc
 
-# What is FishPond?
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/base.apk:system/app/re.codefi.savoca.kcal-1/base.apk \
     vendor/cm/prebuilt/common/app/re.codefi.savoca.kcal-1/oat/arm/base.odex:system/app/re.codefi.savoca.kcal-1/oat/arm/base.odex \
@@ -282,7 +281,6 @@ else
     CM_VERSION_MAINTENANCE := 0
 endif
 
-
 # Set CM_BUILDTYPE from the env RELEASE_TYPE, for jenkins compat
 
 ifndef CM_BUILDTYPE
@@ -350,10 +348,6 @@ else
         CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-MARSH-2.2$(CM_EXTRAVERSION)-$(CM_BUILD)
     else
         CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(CM_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d)-MARSH-2.2$(CM_EXTRAVERSION)-$(CM_BUILD)
-    ifeq ($(CM_VERSION_MAINTENANCE),0)
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
-    else
-        CM_VERSION := $(PRODUCT_VERSION_MAJOR).$(PRODUCT_VERSION_MINOR).$(CM_VERSION_MAINTENANCE)-$(shell date -u +%Y%m%d)-$(CM_BUILDTYPE)$(CM_EXTRAVERSION)-$(CM_BUILD)
     endif
 endif
 
@@ -410,4 +404,3 @@ PRODUCT_PROPERTY_OVERRIDES += \
 -include vendor/cyngn/product.mk
 
 $(call prepend-product-if-exists, vendor/extra/product.mk)
-endif
