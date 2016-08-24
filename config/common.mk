@@ -115,7 +115,6 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/priv-app/CameraNext/CameraNext.apk:system/priv-app/CameraNext/CameraNext.apk \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so:system/priv-app/CameraNext/lib/arm/libjni_mosaic_next.so \
     vendor/cm/prebuilt/common/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so:system/priv-app/CameraNext/lib/arm/libjni_tinyplanet_next.so \
-    vendor/cm/prebuilt/common/priv-app/AudioFX/AudioFX.apk:system/priv-app/AudioFX/AudioFX.apk \
     vendor/cm/prebuilt/common/etc/waves/default.mps:system/etc/waves/default.mps \
     vendor/cm/config/permissions/com.cyngn.audiofx.xml:system/etc/permissions/com.cyngn.audiofx.xml \
     vendor/cm/prebuilt/common/app/org.marshrom.marsh.browser.dev-1/base.apk:system/app/org.marshrom.marsh.browser.dev-1/base.apk \
@@ -180,7 +179,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     Launcher3 \
     Trebuchet \
-    AudioFX \
     CMWallpapers \
     CMFileManager \
     Eleven \
